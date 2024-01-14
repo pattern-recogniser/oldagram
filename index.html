@@ -1,9 +1,50 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
     </head>
+    
     <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
+        <div id="container">
+        <header class="horizontal-flex">
+            <img class="logo" src="images/logo.png">
+            <img class="user-avatar" src="images/anjali.jpg">
+        </header>
+        <post class="vertical-flex">
+            <post_section class="horizontal-flex">
+                <img class="user-avatar"
+                    src="images/avatar-vangogh.jpg"
+                    alt="Van Gogh's avatart"/>
+                <poster_info>
+                    <span class="strong">
+                        Vincent van Gogh
+                    </span>
+                    <span class="location">
+                        Zudert, Netherlands
+                    </span>
+                </poster_info>    
+            </post_section>
+            <img 
+                src="images/post-vangogh.jpg"
+                alt="A self portrait of Van Gogh"/>
+            <post_section>
+                <icons class="horizontal-flex">
+                    <img src="images/icon-heart.png"/>
+                    <img src="images/icon-comment.png"/>
+                    <img src="images/icon-dm.png"/>
+                </icons>
+                <like_count class="strong"> 21492 likes</like_count>
+                <username_caption>
+                    <span class="strong">vincey1853 </span> just took a few mushrooms lol
+                </username_caption>
+            </post_section>
+        </post>
+        
+        </div>
+    <script src="index.js"></script>
     </body>
 </html>

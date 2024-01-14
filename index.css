@@ -1,5 +1,78 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
 }
 
+#container{
+    width: 375px;
+    margin: 0 auto;
+    background-color: #f0ecec;
+}
+
+header{
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 12px;
+    border-bottom: 1px solid #C6C6C6;
+    background-color: #ffffff;
+}
+post{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+post_section{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-avatar{
+    border-radius: 50px;
+    width: 34px;
+    margin-right: 7px; 
+}
+.logo{
+    flex-shrink: 1;
+    width: 127px;
+}
+
+.strong{
+    font-weight: 700;
+}
+.location{
+    font-size: 12px;;
+}
+poster_info .strong, 
+like_count {
+    display: block;
+}
+like_count{
+    margin-bottom: 10px;
+}
+.vertical-flex{
+    /* Used for user-info in the post, and for elements inside post_body */
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-flex{
+    /* Used in header and icons*/
+    display: flex;
+    flex-direction: row;
+    
+}
+
+icons{
+    height: 22px;
+    gap: 14px;
+    margin-bottom: 10px;
+}
+.icons img:hover{
+    opacity: 0.5;
+}
