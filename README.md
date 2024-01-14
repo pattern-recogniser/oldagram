@@ -1,7 +1,7 @@
 # Oldagram
 
 ## 🚀 Demo
-[https://scrimba-endorsements-akarimpil.netlify.app/](https://oldagram-akarimpil.netlify.app/)
+[https://oldagram-akarimpil.netlify.app](https://oldagram-akarimpil.netlify.app/)
 
 ## Introduction
 Selfies were created in the olden days by Van Gogh!
